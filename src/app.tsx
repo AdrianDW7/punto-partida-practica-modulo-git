@@ -38,6 +38,13 @@ const OPTIONS: Option[] = [
     message: 'Escribe aquí el mensaje de la Opción 4.',
     featureFlag: false,
   },
+  {
+    id: 5,
+    title: 'Opción 5',
+    description: 'Descipción corta',
+    message: 'Escribe aquí el mensaje de la Opción 5.',
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
