@@ -31,13 +31,20 @@ const OPTIONS: Option[] = [
     featureFlag: true,
   },
   // Añade aquí la Opción 4 durante la clase:
-  // {
-  //   id: 4,
-  //   title: 'Opción 4',
-  //   description: 'Descripción corta',
-  //   message: 'Escribe aquí el mensaje de la Opción 4.',
-  //   featureFlag: false,
-  // },
+  {
+    id: 4,
+    title: 'Opción 4',
+    description: 'Ramas y Conflictos',
+    message: 'Escribe aquí el mensaje de la Opción 4.',
+    featureFlag: false,
+  },
+  {
+    id: 5,
+    title: 'Opción 5',
+    description: 'Descipción corta',
+    message: 'Escribe aquí el mensaje de la Opción 5.',
+    featureFlag: false,
+  },
 ];
 
 export default function App() {
